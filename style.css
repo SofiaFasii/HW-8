@@ -1,0 +1,26 @@
+h3:first-child{
+    color:pink;
+}
+#greycol{
+    color:grey;
+}
+div>p:nth-child(1){
+    color:red;
+}
+h3 + p:nth-child(7) {
+    color:green;
+}
+.yellow{
+    color:yellow;
+}
+li:first-child{
+    color:orange;}
+li:nth-of-type(2){
+    color:purple;
+}
+li:nth-of-type(2n + 3){
+    color:gold;
+}
+li:nth-child(4){
+    color:blue;
+}
